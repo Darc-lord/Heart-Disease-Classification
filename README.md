@@ -4,7 +4,7 @@ This repository contains a `binary classification` project that uses various pyt
 ### Project Overview
 Heart Disease is dangerous and the earlier it is spotted the better. This project aims at assisting medical professionals, students and patients themselves be able to classify a heart disease case with a great degree of accuracy so that the necessary precautions can be taken. 
 
-- **Exploratory Data Analysis**: Which involves going through the data using statistical tools like histogram, bargraphs, piecharts and so on. The dataset's columns and it's rows are scrutinized, checking for missing data, correlation, relationships and patterns. It also involves understaning the data and getting subject expert knowledge so that the problem can be solved as best as possible.
+- **Exploratory Data Analysis**: Which involves going through the data using statistical tools like histogram, bargraphs, piecharts and so on. The dataset's columns and it's rows are scrutinized, checking for missing data, correlation, relationships and patterns. It also involves understanding the data and getting subject expert knowledge so that the problem can be solved as best as possible.
 
 **Correlation Matrix**
 
@@ -13,7 +13,7 @@ It helps picture how well our `target column` (Heart Disease) relates with the o
 
 ![Correlation Matrix](PICTURES/Correlation_Matrix.png)
 
-- **Filling Missing Data**: This is a crucial part of the model creation purpose, Models cannot thoroughly learn from Nan values. The method of filling is crucial. Mode was used for non-numerical values and 
+- **Filling Missing Data**: This is a crucial part of the model creation purpose, Models cannot thoroughly learn from Nan values. The method of filling is crucial. Mode was used for non-numerical values and median for numerical datatypes.
 
 - **Modelling and Model Evaluation**: This section involving applying machine learning models to our already clean dataset. In this project Ensemble's Random Forest Classifier, Logistic Regression and KNN were both evaluated and tuned to find which found more pattern and learned better on the data. `Logistic Regression` excelled above the others learned better in finding patterns and produced a baseline accuracy score of `88.52%`.
 
