@@ -1,6 +1,13 @@
 # Heart Disease Classification
 This repository contains a `binary classification` project that uses various python based machine learning and data science libraries to build a machine learning model capable to a high degree of accuracy of predicting whether or not a person has heart disease, based on given clinical parameters or features. 
 
+## Table of Contents
++ Project Overview
++ Installations
++ Files
++ Acknowledgement
+
+
 ### Project Overview
 Heart Disease is dangerous and the earlier it is spotted the better. This project aims at assisting medical professionals, students and patients themselves be able to classify a heart disease case with a great degree of accuracy so that the necessary precautions can be taken. 
 
@@ -51,6 +58,12 @@ Cross validation is applied to Accuracy, Precision, Recall and F1-score to show 
 
 
 ### Installation
+1. **Anaconda**
+	```bash
+	 https://www.anaconda.com/download
+	```
+
+### Files
 1. **Clone The Repository**
 	```bash
 	git clonehttps://github.com/Darc-lord/Heart-Disease-Classification.git
